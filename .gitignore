@@ -6,6 +6,8 @@ ThreeGUI/app.js.map
 ThreeGUI/app.ts
 ThreeGUI/threegui.js
 ThreeGUI/threegui.js.map
+ThreeGUI/index.html
+ThreeGUI/app.css
 
 # User-specific files
 *.suo
