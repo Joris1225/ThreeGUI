@@ -6,6 +6,8 @@
         private elements: GUIElement[];
 
         constructor(gameCanvas: HTMLCanvasElement) {
+            this.elements = [];
+
             this.canvas = document.createElement('canvas');
             this.canvas.style.zIndex = "10";
 
@@ -45,6 +47,7 @@
         }
 
         public constructor(content: any, x: number, y: number) {
+            this.content = content;
             this.x = x;
             this.y = y;
         }
